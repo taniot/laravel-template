@@ -13,10 +13,7 @@ Questa repo template contiene una versione modificata del pacchetto `laravel/lar
     - È stato modificato il contenuto
 
 ## Passi da effettuare per RIPRODURRE questo template
-1. Modificare il file `package.json`
-    - Aggiornare la versione del pacchetto `"vite"` alla versione `"^3.0.0"`
-    - Aggiornare la versione del pacchetto `"laravel-vite-plugin"` alla versione `"^0.6.0"`
-2. Eseguire il comando `npm remove postcss` per rimuovere PostCSS
+1. Eseguire il comando `npm remove postcss` per rimuovere PostCSS
 3. Eseguire il comando `npm i` per installare tutti i pacchetti di NPM (comprese le versioni aggiornate di `vite` e `laravel-vite-plugin`)
 4. Eseguire il comando `npm i --save-dev sass` per installare SASS
 5. Rinominare la cartella `css` che si trova nella cartella `resources/` in `scss`
